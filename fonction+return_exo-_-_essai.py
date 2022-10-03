@@ -1,4 +1,5 @@
 from random import randint
+from secrets import choice
 
 def word_random():
     letters = ["p", "a", "t", "o", "n"]
@@ -8,3 +9,5 @@ def word_random():
 for _ in range(0,5):
     word = word_random()
     print (word, end="")
+
+    
