@@ -14,4 +14,4 @@ for letter in word :
 
 print("Nombre de voyelles : " + str(count))
 
-# corrigé, un peu plus optimisé si je veux faire comme ça avec double boucme mais Break donc pas ouf
+# corrigé, un peu plus optimisé si je veux faire comme ça avec double boucle mais Break donc pas ouf

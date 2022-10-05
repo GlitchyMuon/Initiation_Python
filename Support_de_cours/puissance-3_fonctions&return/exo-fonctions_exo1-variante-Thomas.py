@@ -7,9 +7,9 @@ def reverse_word(word) :
     
         r_word = r_word + word[index]
         
-    return word
+    return r_word
     # variante : return word[::-1] ou 
     # ça veut dire : du début à la fin à l'envers, en slicing, dans la direction omise <-
     
-    w = input("Donne moi un mot: ")
-    print("Mot inverse: " + reverse_word(w))
+w = input("Donne moi un mot: ")
+print("Mot inverse: " + reverse_word(w))
