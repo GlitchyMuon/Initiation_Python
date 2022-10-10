@@ -1,10 +1,10 @@
 def without_vowels(word):
     vowels = ["a", "i", "u", "e", "o", "y"]
-    con_list = []
+    consonnants_list = []
     for v in word:
         if v not in vowels:
-            con_list.append(v)
-    print(con_list)
+            consonnants_list.append(v)
+    return consonnants_list
         
 print(without_vowels("anticonstitutionnellement"))
 
