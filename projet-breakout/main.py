@@ -107,9 +107,11 @@ def invert_horizontal_speed():
 def invert_vertical_speed():
     ball_speed[1] *= -1
    
-#def on_key_down(key):
-#   if key == keys.SPACE:
-#            invert_horizontal_speed()
+def on_key_down(key):
+    if keyboard.left:
+        player.x -= 20
+    elif keyboard.right:
+        player.x += 20
     
 # --- programme principal 
 
