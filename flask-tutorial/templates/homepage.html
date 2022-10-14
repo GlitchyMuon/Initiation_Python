@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> <!--raccourci 'link'.  On ne peut pas juste faire style.css car ici il est d'abord passé par Python donc il faut écrire l'url façon Python-->
+</head>
+<body>
+    <h1>Homepage</h1>
+        <p>Hello, this is my first homepage using Flask and Python !</p>
+        <a href="/if3/">Lien vers if3</a>
+</body>
+</html>/
